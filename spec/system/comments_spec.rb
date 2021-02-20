@@ -31,6 +31,5 @@ RSpec.describe "コメント投稿", type: :system do
     expect(page).to have_content @comment
 
   end
-
 end
 end
