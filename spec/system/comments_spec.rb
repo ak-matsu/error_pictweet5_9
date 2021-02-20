@@ -29,7 +29,6 @@ RSpec.describe "コメント投稿", type: :system do
     expect(current_path).to eq(tweet_path(@tweet))
     # 詳細ページ上に先ほどのコメント内容が含まれていることを確認する
     expect(page).to have_content @comment
-
   end
 end
 end
